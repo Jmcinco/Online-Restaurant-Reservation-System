@@ -61,12 +61,12 @@
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'tablereservation.piggywings@gmail.com';
-            $mail->Password = 'vdaqxcijuggduhst';
+            $mail->Username = 'youremail@gmail.com';
+            $mail->Password = 'yourpassword';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
-            $mail->setFrom('tablereservation.piggywings@gmail.com', 'Piggy Wings');
+            $mail->setFrom('youremail@gmail.com', 'Piggy Wings');
             $mail->addAddress($email);
 
             $mail->isHTML(true);
