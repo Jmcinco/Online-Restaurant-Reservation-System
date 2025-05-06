@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # piggywings-updated
 
 
@@ -90,3 +91,63 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+=======
+Online Restaurant Reservation System
+This is an Online Restaurant Reservation System that allows users to make reservations at a restaurant through a web-based interface.
+Prerequisites
+To use this system, you must have the following application installed:
+
+XAMPP (Any version)
+
+Installation Steps
+
+Download XAMPP:
+
+Visit the XAMPP website: https://www.apachefriends.org/
+Download the appropriate version for your operating system.
+
+
+Install XAMPP:
+
+Run the downloaded XAMPP installer and follow the on-screen instructions to complete the installation.
+
+
+Clone the Project:
+
+Clone this repository to your local machine using:git clone https://github.com/your-username/Online-Restaurant-Reservation-System.git
+
+
+
+
+Move Project to XAMPP Directory:
+
+Move the cloned project folder to the htdocs directory in your XAMPP installation. This is typically located at:C:\xampp\htdocs
+
+
+
+
+Import the Database:
+
+Open your web browser and navigate to http://localhost/phpmyadmin.
+Click on the Import tab in the phpMyAdmin interface.
+Locate the SQL file in the piggywings/server directory of the project.
+Select the SQL file and click Go to import the database.
+
+
+
+Run the Application:
+
+Ensure XAMPP is running (start the Apache and MySQL modules).
+Open your browser and go to http://localhost/Online-Restaurant-Reservation-System to access the system.
+
+
+
+Troubleshooting
+
+Ensure that Apache and MySQL services are running in the XAMPP Control Panel.
+Verify that the project folder is correctly placed in the htdocs directory.
+Check that the SQL file is properly imported into phpMyAdmin.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+>>>>>>> 78dd9211dd38c80e32238a51c8cfd32e646549fe
